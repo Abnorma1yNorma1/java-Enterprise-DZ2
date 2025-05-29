@@ -43,7 +43,7 @@ public class FinServlet extends HttpServlet {
         writer.write("<div id=average-price-container>\n" +
                             "<div class=\"medium-title\">\n" +
                             "Средняя цена\n" +
-                            "</div>\"" +
+                            "</div>\n" +
                             "<div class=\"fs-2 green\">" + averagePrice + "</div>" +
                         "</div>");
         writer.write("<div id=total-count-container>\n" +
